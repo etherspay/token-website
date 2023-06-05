@@ -25,8 +25,8 @@ export const useStyles = createStyles((theme) => ({
   title: {
     color: theme.colorScheme === "dark" ? theme.white : theme.black,
     fontFamily: `Greycliff CF, ${theme.fontFamily}`,
-    fontSize: rem(44),
-    lineHeight: 1.2,
+    fontSize: rem(43),
+    lineHeight: 1.3,
     fontWeight: 900,
   },
 
@@ -44,7 +44,7 @@ export const useStyles = createStyles((theme) => ({
     }).background,
 
     borderRadius: theme.radius.sm,
-    padding: `${rem(4)} ${rem(12)}`,
+    padding: `${rem(2)} ${rem(12)}`,
   },
   logoContainer: {
     [theme.fn.smallerThan("sm")]: {

@@ -1,8 +1,8 @@
-## Etherspay Coming Soon Page
+## Etherspay $EPT Token page
 
 ### A simple coming soon page for Etherspay
 
-### [etherspay.com](https://etherspay.com)
+### [token.etherspay.com](https://token.etherspay.com)
 
 #### To run locally:
 

@@ -118,10 +118,21 @@ export default function Whitepaper() {
             size="lg"
             variant="default"
             color="gray"
+            component="a"
+            href="https://etherspay.notion.site/Etherspay-Whitepaper-15e3740da9d043a09e724d436dd65668?pvs=4"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Whitepaper
           </Button>
-          <Button className={classes.control} size="lg">
+          <Button
+            className={classes.control}
+            size="lg"
+            component="a"
+            href="https://twitter.com/etherspay"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Visit our Twitter
           </Button>
         </div>

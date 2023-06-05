@@ -7,6 +7,7 @@ import {
   Avatar,
   List,
   ThemeIcon,
+  Anchor,
 } from "@mantine/core";
 import { IconCircleCheck, IconCircleX } from "@tabler/icons-react";
 import { useStyles } from "./Roadmap.styles";
@@ -161,6 +162,21 @@ export default function Roadmap() {
       >
         {features}
       </SimpleGrid>
+      <Text
+        c="dimmed"
+        className={classes.description}
+        ta="center"
+        size="sm"
+        mt="md"
+        mb="xl"
+      >
+        * This roadmap is subject to change.
+        <br /> For a more detailed roadmap, please refer to following{" "}
+        <Anchor href="https://etherspay.notion.site/7d86e838d58d48a4b42ef13f029b7fae?v=bd961d55a07d4ac2bfaa3283742564e5&pvs=4">
+          url
+        </Anchor>
+        .
+      </Text>
     </Container>
   );
 }

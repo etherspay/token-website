@@ -38,13 +38,14 @@ export default function Hero() {
             }}
           >
             <Title className={classes.title}>
-              Unified <span className={classes.highlight}>Web3</span> solutions
-              for the modern internet <br />
+              The token that powers
+              <span className={classes.highlight}>Etherspay</span>
+              <br />
             </Title>
             <Text color="dimmed" mt="md">
-              Etherspay is a simple, easy to use, and secure way to accept
-              crypto payments on your website. Our SDK's are very easy to use
-              and can be integrated into your website in minutes.
+              Etherspay Token ($ETP) is a utility token that powers the
+              Etherspay ecosystem. It is used for governance, staking, and
+              payments.
             </Text>
           </motion.div>
 

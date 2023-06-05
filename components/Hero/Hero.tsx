@@ -38,8 +38,8 @@ export default function Hero() {
             }}
           >
             <Title className={classes.title}>
-              The token that powers
-              <span className={classes.highlight}>Etherspay</span>
+              The token that powers the{" "}
+              <span className={classes.highlight}>Etherspay</span> ecosystem
               <br />
             </Title>
             <Text color="dimmed" mt="md">
@@ -109,6 +109,8 @@ export default function Hero() {
                 size="md"
                 className={classes.control}
                 component="a"
+                href="https://app.uniswap.org/#/"
+                target="_blank"
               >
                 Buy $ETP
               </Button>

@@ -12,7 +12,7 @@ export default function App(props: AppProps) {
           Etherspay | Unified Web3 solutions for the modern internet | $EPT
         </title>
 
-        <link rel="icon" href="/etherspay.svg" />
+        <link rel="icon" href="/etherspay-new.svg" />
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"

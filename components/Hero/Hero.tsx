@@ -145,7 +145,7 @@ export default function Hero() {
         </div>
         <Center w={300} mx="auto" className={classes.logoContainer}>
           <motion.img
-            src="/etherspay.svg"
+            src="/etherspay-new.svg"
             alt="Etherspay Logo"
             width={250}
             initial={{
